@@ -1,0 +1,58 @@
+#formbox{
+    overflow: hidden;
+    width:550px;
+    margin: 0px auto;
+    text-align: left;
+    padding:15px 10px 30px 30px; 
+}
+    
+.fieldblock{
+    float: left;
+    margin:0 0 15px 0;
+}
+
+label{
+    font:bold 9pt "Helvetica Neue",Arial,sans-serif; 
+    color: #444;
+    width: 120px;
+    padding: 6px 0 5px 0;
+    float: left;
+    display: block;
+    border-right: dashed 1px #CCC; margin-right:10px;
+}
+
+textarea{
+    min-height:250px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.fieldblock input, .fieldblock textarea{
+    float: right;
+    border:1px solid #ccc;
+    background:#fafafa;
+    width:400px;
+    padding: 6px;
+    font:11px "Helvetica Neue",Arial,sans-serif;
+}
+
+textarea.red, textarea.red:focus, input.red, input.red:focus{
+    border:dotted 1px #E8514A;
+}
+input:focus, textarea:focus{
+  //  border:1px solid #ccc;
+    outline: none;
+}
+
+.msgreceipt{
+    width:100%;
+    font: 24px Georgia;
+    color:#7065B9; 
+    padding:10px 0px 10px 0px;
+    margin-bottom: 15px;
+    text-align:left;
+}/*h2?*/
+
+
+#submitblock{ float: right; width: 400px; height: 24px; }
+#submit{ float: left; }

@@ -1,0 +1,87 @@
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+ 
+.section {
+	width:230px;
+	background-color: white;
+	border-bottom: 1px solid #BBBBBB;
+	margin-left: 0;
+	margin-right: 5%;
+	margin-top: 2px;
+	padding: 0 0 0;
+}
+.section ul {
+	list-style: none;
+	margin-top: 5px;
+}
+
+.section ul li {
+	display: inline;
+}
+
+.section ul a {
+	background-color: #ECECEC;
+	border: 1px solid #999999;
+	padding: 5px 5px 10px;
+	display: block;
+	float: left;
+	margin: 5px;
+	font-size:12
+}
+
+.section ul a:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+}
+
+.section ul a img {
+	border: 1px solid #999999;
+}
+
+.section ul a.lightbox-enabled img {
+	border: 1px dotted #999999;
+}
+
+.section span.code {
+	font-family: "Courier New", Courier, monospace;
+	margin-left: 10px;
+	padding-left: 10px;
+	font-size: 11px;
+	border-left: 1px solid #000;
+}
+
+.section .link {
+	font-size: 12px;
+	font-style: italic;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.section .important {
+	text-decoration: underline;
+}
+
+.section .title {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.clear {
+	clear: left;
+}
+
+.section.header {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+	border-top: none;
+}
+
+.section.footer {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+}

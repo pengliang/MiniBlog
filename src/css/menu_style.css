@@ -1,0 +1,33 @@
+.outer a, .outer div, .outer li, .outer ul, .outer body{
+	width: 132px;
+	float:left;
+	margin: 0;
+	padding: 0;
+	color: #836288;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+div.menu{
+	width: 193px;
+}
+div.menu ul{
+	position:relative;
+	list-style: none;
+	text-indent: 0px;
+}
+div.menu li{
+	margin-top: 3px;
+}
+div.menu a{
+	font: 12px Verdana;
+	padding: 4px;
+	color: #646464;
+	display:block;
+	padding: 6px 30px;
+	height: 20px;
+	text-decoration: none;
+	background: url('../images/menu_bg.gif');
+}
+div.menu a:hover{
+	background: url('../images/menu_highlight.gif') no-repeat right;
+	padding: 6px 40px;
+}
